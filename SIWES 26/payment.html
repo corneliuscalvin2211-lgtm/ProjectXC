@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Online Shopping System</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Payment</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Choose Payment Method</h2>
+
+        <form>
+
+            <label>
+                <input type="radio" name="payment" value="card" required>
+                Debit/Credit Card
+            </label>
+            <br><br>
+
+            <label>
+                <input type="radio" name="payment" value="transfer">
+                Bank Transfer
+            </label>
+            <br><br>
+
+            <label>
+                <input type="radio" name="payment" value="cash">
+                Cash on Delivery
+            </label>
+
+            <br><br>
+
+            <button type="submit" onclick="window.location.href='confirmation.html'">Make Payment</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Online Shopping System</p>
+    </footer>
+
+</body>
+</html>
